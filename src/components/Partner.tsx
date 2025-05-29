@@ -1,28 +1,9 @@
-
 import React from 'react';
 import { Users, Check } from 'lucide-react';
-
 const Partner = () => {
-  const benefits = [
-    "Access to a steady stream of well-matched clients",
-    "Reduced admin burden - we handle coordination",
-    "Fair and transparent payment processes",
-    "Professional development opportunities",
-    "Supportive community of like-minded professionals",
-    "Ongoing business support and guidance"
-  ];
-
-  const requirements = [
-    "Current NDIS registration and relevant qualifications",
-    "Professional indemnity insurance",
-    "Current NDIS Worker Screening Check",
-    "Commitment to quality care and communication",
-    "Availability for ongoing client relationships",
-    "Professional references and background checks"
-  ];
-
-  return (
-    <section id="partner" className="py-20 bg-white">
+  const benefits = ["Access to a steady stream of well-matched clients", "Reduced admin burden - we handle coordination", "Fair and transparent payment processes", "Professional development opportunities", "Supportive community of like-minded professionals", "Ongoing business support and guidance"];
+  const requirements = ["Current NDIS registration and relevant qualifications", "Professional indemnity insurance", "Current NDIS Worker Screening Check", "Commitment to quality care and communication", "Availability for ongoing client relationships", "Professional references and background checks"];
+  return <section id="partner" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center space-y-6 mb-16">
@@ -54,14 +35,12 @@ const Partner = () => {
             </div>
 
             <div className="space-y-4">
-              {benefits.map((benefit, index) => (
-                <div key={index} className="flex items-start space-x-4">
+              {benefits.map((benefit, index) => <div key={index} className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-1">
                     <Check className="text-blue-600" size={16} />
                   </div>
                   <span className="text-slate-700">{benefit}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
 
             <div className="bg-blue-50 p-6 rounded-xl">
@@ -78,14 +57,12 @@ const Partner = () => {
             <div className="bg-slate-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-slate-800 mb-6">What We Look For</h3>
               <div className="space-y-4">
-                {requirements.map((requirement, index) => (
-                  <div key={index} className="flex items-start space-x-4">
+                {requirements.map((requirement, index) => <div key={index} className="flex items-start space-x-4">
                     <div className="flex-shrink-0 w-6 h-6 bg-orange-100 rounded-full flex items-center justify-center mt-1">
                       <Check className="text-orange-600" size={16} />
                     </div>
                     <span className="text-slate-700 text-sm">{requirement}</span>
-                  </div>
-                ))}
+                  </div>)}
               </div>
             </div>
 
@@ -147,13 +124,11 @@ const Partner = () => {
             <div className="text-slate-600">Partner Satisfaction</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-orange-500 mb-2">$75k</div>
-            <div className="text-slate-600">Avg. Partner Revenue</div>
+            <div className="text-3xl font-bold text-orange-500 mb-2">100%</div>
+            <div className="text-slate-600">Tailored Support</div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Partner;
