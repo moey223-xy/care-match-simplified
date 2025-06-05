@@ -1,20 +1,13 @@
-
 import React from 'react';
 import { Contact, FileText, Users } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-slate-800 text-white">
+  return <footer className="bg-slate-800 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center">
-              <img 
-                src="/lovable-uploads/e074c3bd-412a-42d6-be04-b44a8795f4e2.png" 
-                alt="Close2Heart Care Logo" 
-                className="h-16 w-auto brightness-0 invert"
-              />
+              <img alt="Close2Heart Care Logo" src="/lovable-uploads/b1865c5f-3d9c-45f4-83e9-5c568f4ff830.png" className="" />
             </div>
             <p className="text-slate-300 leading-relaxed">
               Connecting NDIS participants with trusted health professionals. 
@@ -94,8 +87,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
