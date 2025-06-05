@@ -15,9 +15,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-bold text-slate-800">
-              Close <span className="text-blue-500">2</span> Heart
-            </div>
+            <img 
+              src="/lovable-uploads/e074c3bd-412a-42d6-be04-b44a8795f4e2.png" 
+              alt="Close2Heart Care Logo" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
