@@ -1,25 +1,16 @@
-
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-
-  return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+  return <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/e074c3bd-412a-42d6-be04-b44a8795f4e2.png" 
-              alt="Close2Heart Care Logo" 
-              className="h-12 w-auto"
-            />
+            <img alt="Close2Heart Care Logo" src="/lovable-uploads/bc99ed7d-9366-4474-8f84-a21001a4153b.png" className="w-auto object-scale-down" />
           </div>
 
           {/* Desktop Navigation */}
@@ -42,18 +33,14 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <button
-              onClick={toggleMenu}
-              className="text-slate-700 hover:text-blue-600 transition-colors"
-            >
+            <button onClick={toggleMenu} className="text-slate-700 hover:text-blue-600 transition-colors">
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-slate-200">
+        {isMenuOpen && <div className="md:hidden py-4 border-t border-slate-200">
             <div className="flex flex-col space-y-4">
               <a href="#home" className="text-slate-700 hover:text-blue-600 transition-colors font-medium">Home</a>
               <a href="#about" className="text-slate-700 hover:text-blue-600 transition-colors font-medium">About Us</a>
@@ -66,11 +53,8 @@ const Header = () => {
                 Get Started
               </button>
             </div>
-          </div>
-        )}
+          </div>}
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
