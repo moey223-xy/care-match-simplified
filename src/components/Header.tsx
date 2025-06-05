@@ -10,7 +10,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img alt="Close2Heart Care Logo" src="/lovable-uploads/bc99ed7d-9366-4474-8f84-a21001a4153b.png" className="w-auto object-scale-down" />
+            <img alt="Close2Heart Care Logo" src="/lovable-uploads/abac3bf4-229d-4b6b-8a32-479295e940e0.png" className="w-auto object-contain" />
           </div>
 
           {/* Desktop Navigation */}
