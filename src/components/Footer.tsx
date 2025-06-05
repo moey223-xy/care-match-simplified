@@ -14,8 +14,7 @@ const Footer = () => {
               Taking the stress out of finding the right care.
             </p>
             <div className="text-sm text-slate-400">
-              ABN: 12 345 678 901<br />
-              NDIS Registered Provider
+                           
             </div>
           </div>
 
