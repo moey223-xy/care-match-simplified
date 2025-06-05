@@ -83,11 +83,12 @@ const Contact = () => {
                 <p className="text-slate-600 mb-4">
                   Speak with our friendly team who can answer your questions and start the matching process.
                 </p>
-                <div className="text-2xl font-bold text-blue-600 mb-4">1300 CLOSE2 (1300 256 732)</div>
+                <div className="text-2xl font-bold text-blue-600 mb-4">0434 768 520</div>
                 <div className="text-sm text-slate-600">
                   <div>
                 </div>
-                  <div>Saturday: 9:00am - 1:00pm</div>
+                  <div>
+                </div>
                 </div>
               </div>
 
@@ -111,8 +112,8 @@ const Contact = () => {
                     <div className="text-sm">Serving Greater Gold Coast</div>
                   </div>
                   <div>
-                    <div className="font-semibold">Brisbane Office</div>
-                    <div className="text-sm">Serving Greater Brisbane & surrounds</div>
+                    <div className="font-semibold">Sydney Office</div>
+                    <div className="text-sm">Coming Soon</div>
                   </div>
                 </div>
               </div>
@@ -124,7 +125,7 @@ const Contact = () => {
               <p className="text-orange-100 text-sm mb-4">
                 If you need immediate assistance or have an urgent matching request, call our priority line.
               </p>
-              <div className="text-xl font-bold">1300 URGENT (1300 874 368)</div>
+              <div className="text-xl font-bold">0434 768 520</div>
               <div className="text-orange-100 text-sm mt-2">Available 24/7 for urgent situations</div>
             </div>
           </div>

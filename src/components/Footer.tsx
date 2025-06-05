@@ -7,7 +7,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center">
-              <img alt="Close2Heart Care Logo" src="/lovable-uploads/b1865c5f-3d9c-45f4-83e9-5c568f4ff830.png" className="" />
+              <img alt="Close2Heart Care Logo" className="" src="/lovable-uploads/bb7a9a79-6b1f-4ab1-ba00-15cef2531f83.png" />
             </div>
             <p className="text-slate-300 leading-relaxed">
               Connecting NDIS participants with trusted health professionals. 
@@ -48,8 +48,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Contact className="text-blue-400 mt-1" size={18} />
                 <div className="text-slate-300">
-                  <div className="font-semibold">1300 CLOSE2</div>
-                  <div className="text-sm">(1300 256 732)</div>
+                  <div className="font-semibold">0434 768 520</div>
+                  
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -66,18 +66,14 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="bg-slate-700 p-4 rounded-xl">
-              <div className="text-sm font-semibold text-white mb-1">Emergency Support</div>
-              <div className="text-lg font-bold text-orange-400">1300 URGENT</div>
-              <div className="text-xs text-slate-400">24/7 for urgent situations</div>
-            </div>
+            
           </div>
         </div>
 
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-slate-700">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-slate-400 text-sm">© 2025 Close 2 Heart Care. All rights reserved.</div>
+            <div className="text-slate-400 text-sm">© 2025 Close2Heart Care. All rights reserved.</div>
             <div className="flex space-x-6 text-slate-400 text-sm">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

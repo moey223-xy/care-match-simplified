@@ -27,7 +27,7 @@ const Partner = () => {
           {/* Left - Why Partner */}
           <div className="space-y-8">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold text-slate-800">Why Partner with Close 2 Heart?</h3>
+              <h3 className="text-3xl font-bold text-slate-800">Why Partner with Close2Heart?</h3>
               <p className="text-lg text-slate-600">
                 We're more than just a referral service. We're your partners in building meaningful, 
                 lasting relationships with clients who genuinely value and need your expertise.
@@ -83,7 +83,7 @@ const Partner = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-xs">4</div>
-                  <span>Welcome to the Close 2 Heart family!</span>
+                  <span>Welcome to the Close2Heart family!</span>
                 </div>
               </div>
             </div>

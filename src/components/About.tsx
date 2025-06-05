@@ -9,7 +9,7 @@ const About = () => {
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2 bg-blue-50 px-4 py-2 rounded-full">
                 <Users className="text-blue-600" size={20} />
-                <span className="text-blue-700 font-medium">About Close 2 Heart Care</span>
+                <span className="text-blue-700 font-medium">About Close2Heart Care</span>
               </div>
               
               <h2 className="text-4xl font-bold text-slate-800">
